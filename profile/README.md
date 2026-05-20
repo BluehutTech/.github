@@ -50,28 +50,21 @@ Dentro de cada cliente ou projeto, os repositórios seguem uma nomenclatura func
 | `*-docs` | Documentação técnica ou funcional |
 | `*-infra` | Arquivos de infraestrutura específicos do projeto |
 
-### Exemplos
+### Projetos
+---
 
-```txt
-mushard-api
-mushard-web
-mushard-admin
-mushard-gateway
-mushard-bff
-mushard-worker
+## MuShard
 
-zkx-web
-zkx-api
-zkx-admin
+Repositórios relacionados ao ecossistema **MuShard**, incluindo portal, loja, autenticação, gateway, serviços backend e aplicações auxiliares.
 
-bluehut-site
-bluehut-crm
-bluehut-landing
-
-infra-deploy
-infra-scripts
-
-lab-saas-clinica
-lab-automation-rpa
-
-legacy-old-project
+| Repositório | Responsabilidade |
+|---|---|
+| [mushard-client](https://github.com/BluehutTech/mushard-client) | Cliente/aplicação principal do ecossistema MuShard |
+| [mushard-shop-api](https://github.com/BluehutTech/mushard-shop-api) | API responsável pela loja e regras de compra |
+| [mushard-shop-web](https://github.com/BluehutTech/mushard-shop-web) | Frontend web da loja |
+| [mushard-server-info-api](https://github.com/BluehutTech/mushard-server-info-api) | API de informações do servidor |
+| [mushard-news-api](https://github.com/BluehutTech/mushard-news-api) | API de notícias e comunicados |
+| [mushard-updater](https://github.com/BluehutTech/mushard-updater) | Atualizador/launcher do cliente MuShard |
+| [mushard-auth-api](https://github.com/BluehutTech/mushard-auth-api) | API de autenticação e identidade |
+| [mushard-portal-bff](https://github.com/BluehutTech/mushard-portal-bff) | Backend for Frontend do portal |
+| [mushard-orchestrator-gateway](https://github.com/BluehutTech/mushard-orchestrator-gateway) | Gateway/orquestrador de entrada dos serviços |
